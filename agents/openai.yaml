@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kuaishou Scheduled Publisher"
+  short_description: "Clean video metadata and automate Kuaishou scheduling"
+  default_prompt: "Use $kuaishou-scheduled-publisher to prepare videos and schedule a rolling Kuaishou publishing queue."

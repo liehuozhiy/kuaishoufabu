@@ -1,0 +1,5 @@
+node_modules/
+kuaishou.config.json
+.kuaishou-publisher/
+cleaned-videos/
+*.log

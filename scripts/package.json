@@ -1,0 +1,18 @@
+{
+  "name": "kuaishou-auto-publisher",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install-browser": "playwright install chromium",
+    "login": "node login.js",
+    "init-queue": "node init-queue.js",
+    "schedule": "node schedule-batch.js --rolling",
+    "schedule:dry": "node schedule-batch.js --dry-run --rolling --limit=1",
+    "clean": "node clean-video-metadata.js",
+    "doctor": "node doctor.js"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
