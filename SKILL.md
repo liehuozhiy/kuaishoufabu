@@ -1,9 +1,9 @@
 ---
-name: kuaishou-scheduled-publisher
+name: kuaishoufabu
 description: Prepare local video batches and automate Kuaishou Creator scheduled publishing with metadata inspection/cleaning, numeric filename ordering, persistent browser login, upload-completion verification, rolling date-window scheduling, retries, logs, and resumable queues. Use when Codex needs to clean generated-video container metadata, publish many videos to Kuaishou at fixed daily times, recover a stopped batch, or maintain a rolling Kuaishou schedule.
 ---
 
-# Kuaishou Scheduled Publisher
+# Kuaishou Fabu
 
 Use the bundled Node scripts for deterministic execution. Work on copies of videos and keep the live flag off until a dry run succeeds.
 
